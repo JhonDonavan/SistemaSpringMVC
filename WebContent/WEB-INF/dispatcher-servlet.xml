@@ -9,6 +9,8 @@
 						http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
  
 	<context:component-scan base-package="br.com.SistemaSpringMVC.controller" />
+	<context:component-scan base-package="br.com.SistemaSpringMVC.dominio" />
+	<context:component-scan base-package="br.com.SistemaSpringMVC.dominio.dao" />
  
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		

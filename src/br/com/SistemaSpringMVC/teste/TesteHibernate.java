@@ -6,7 +6,7 @@ import br.com.SistemaSpringMVC.dominio.dao.ClienteDAO;
 public class TesteHibernate {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		Cliente c1 = new Cliente();
 		ClienteDAO dao = new ClienteDAO();

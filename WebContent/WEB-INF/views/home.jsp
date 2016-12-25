@@ -7,21 +7,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Boas Vindas</title>
 
-<link rel="stylesheet" href='<c:url value="/resources/bootstrap/bootstrap.css" />' type="text/css"/>
-<link rel="stylesheet" href='<c:url value="/resources/css/style.css" />' type="text/css"/>
+<link rel="stylesheet" href='<c:url value="/resources/bootstrap/bootstrap.min.css" />' type="text/css" />
+<link rel="stylesheet" href='<c:url value="/resources/css/style.css" />' type="text/css" />
+	
 <script src='<c:url value="/resources/bootstrap/jquery.js" />'></script>
-<script src="<c:url value='/resources/jquery/bootstrap.min.js' />"></script>
+<script src='<c:url value="/resources/jquery/bootstrap.min.js" />'></script>
 
-<!--LINK BOOTSTRAP ON LINE  -->
+<!--LINK BOOTSTRAP ON-LINE  -->
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 
 </head>
 <body>
 
-	<center>
-		<h1>Bem vindo a pagina inicial do nosso projeto Spring MVC</h1>
-	</center>
-
+	<h1>Bem vindo a pagina inicial do nosso projeto Spring MVC</h1>
 
 
 	<div class="container">
@@ -39,7 +37,8 @@
 				</div>
 
 				<div class="form-group">
-					Telefone <input type="number" name="telefone" id="telefone" class="form-control" required="required"></input>
+					Telefone <input type="number" name="telefone" id="telefone"
+						class="form-control" required="required"></input>
 				</div>
 
 				<div class="form-group">
